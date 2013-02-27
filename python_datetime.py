@@ -14,5 +14,6 @@ def calculateTime(originalTime,seconds):
     
 def getWeekday():
     return time.strftime('%w')
+    
 def getLastDayofMonth(year,month):
     return calendar.monthrange(int(year), int(month))[1]
